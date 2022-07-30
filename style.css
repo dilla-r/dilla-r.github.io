@@ -39,21 +39,18 @@ body {
   background:black;
 }
 
-h1,
-h2,
-h3 {
-  font-family: var(--header-font);
+h1 {
+  font-family:  "Raleway", sans-serif;
   text-transform: uppercase;
 
   padding: 0;
   margin: 0;
 
-  color: var(--highlight);
-}
-
-h1 {
+  color: #fabf41;
   font-size: 40px;
 }
+
+
 
 a {
   color: inherit;
@@ -62,70 +59,4 @@ a {
   user-select: none;
 }
 
-#root {
-  display: flex;
-  flex-direction: column;
-}
 
-.View {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: flex-start;
-
-  height: 100%;
-  width: 100%;
-
-  padding: 20px;
-
-  background-size: cover;
-
-  font-family: var(--core-font);
-}
-
-.Banner {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-
-  width: 100%;
-
-  border-radius: 5px;
-
-  overflow: hidden;
-  background: white;
-  padding: 15px;
-
-  font-family: var(--logo-font);
-
-  border-bottom: var(--ui-shawdow-border);
-  box-shadow: var(--ui-shawdow);
-}
-
-.Message {
-  background: white;
-  padding: 30px;
-  border-bottom: var(--ui-shawdow-border);
-  box-shadow: var(--ui-shawdow);
-}
-
-.Message > .Title {
-  padding-bottom: 20px;
-}
-
-.Message > .Details {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  line-height: 1.5em;
-}
-
-.NavButtons {
-  display: flex;
-  width: 100%;
-  justify-content: space-around;
-  align-items: center;
-  padding: 0 20px;
-}
