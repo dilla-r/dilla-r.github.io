@@ -1,6 +1,6 @@
 var currentTime = new Date();
 var weirdTime = currentTime;
-var specialTime = new Date("2022-07-31");
+var specialTime = "7-31-2022";
 var gamez = [
 "2022-07-30",
   "2022-07-31",
@@ -27,7 +27,7 @@ var gamez = [
   document.write(currentTime.toDateString());
 
 
-if (specialTime.toLocaleDateString() == currentTime.toLocaleDateString()) {
+if (specialTime == currentTime.toLocaleDateString()) {
 document.getElementById("answer").innerHTML = "Yas";
     document.write(specialTime.toLocaleDateString());
   document.write(specialTime.toDateString()) ;
