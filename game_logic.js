@@ -26,13 +26,11 @@ document.write(specialTime);
 
 
 if (specialTime === currentTime.toLocaleDateString()) {
-document.getElementById("answer").innerHTML = Yas;
+document.getElementById("answer").innerHTML = "Yas";
 
 }
 else {
-document.write("Fresh");
-  document.write(currentTime.toDateString());
-    document.write(currentTime.toLocaleDateString());
+document.write("New");
 }
 
          
