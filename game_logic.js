@@ -21,11 +21,11 @@ var gamez = [
   "2022-08-28"
 ];
 
-if (specialTime.toDateString() == toDateString()) {
+if (specialTime.toDateString() == currentTime.toDateString()) {
 document.getElementById("answer").innerHTML = "Yas";
 }
 else if (currentTime == weirdTime) {
-document.getElementById("answer").innerHTML = "Almost 5";         
+document.getElementById("answer").innerHTML = "Almost lol";         
 }
 else {
   document.getElementById("answer").innerHTML = "someday";
