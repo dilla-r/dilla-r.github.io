@@ -30,7 +30,7 @@ document.getElementById("answer").innerHTML = "Yas";
 
 }
 else {
-document.write("Drats");
+document.write("Fresh");
   document.write(currentTime.toDateString());
     document.write(currentTime.toLocaleDateString());
 }
