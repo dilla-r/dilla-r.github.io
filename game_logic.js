@@ -21,7 +21,7 @@ var gamez = [
   "2022-08-28"
 ];
 
-if (specialTime.toDateString() == currentTime.toDateString()) {
+if (specialTime.toLocalDateString() == currentTime.toDateString()) {
 document.getElementById("answer").innerHTML = "Yas";
 }
 else {
@@ -29,7 +29,7 @@ document.write(specialTime.toDateString())
   document.write(currentTime.toDateString())  
     document.write(currentTime) 
     document.write(specialTime) 
-  document.write(weirdTime)
+  document.write(specialTime.toLocalDateString)
 }
 
          
