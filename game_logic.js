@@ -1,7 +1,7 @@
 var currentTime = new Date();
 currentTime.setHours(0,0,0,0);
 var weirdTime = currentTime;
-var specialTime = new Date(2022,07,30);
+var specialTime = new Date(2022,07,30,0,0,0,0);
 var myTime = new Date(1993,08,24);
 var gamez = [
 "2022-07-30",
@@ -26,7 +26,7 @@ if (specialTime == currentTime) {
 document.getElementById("answer").innerHTML = "Yas";
 }
 else if (currentTime == weirdTime) {
-document.getElementById("answer").innerHTML = "Almost 3";         
+document.getElementById("answer").innerHTML = "Almost 4";         
 }
 else {
   document.getElementById("answer").innerHTML = "someday";
