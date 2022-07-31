@@ -20,11 +20,9 @@ var gamez = [
   "2022-08-28"
 ];
 
-
-    document.write(specialTime.toLocaleDateString());
-    document.write(currentTime.toLocaleDateString());
-  document.write(specialTime.toDateString()) ;
-  document.write(currentTime.toDateString());
+document.write(currentTime.toDateString());
+document.write(specialTime);
+    
 
 
 if (specialTime == currentTime.toLocaleDateString()) {
@@ -35,11 +33,7 @@ document.getElementById("answer").innerHTML = "Yas";
     document.write(currentTime.toLocaleDateString());
 }
 else {
-document.write(specialTime.toDateString()) 
-  document.write(currentTime.toDateString())  
-    document.write(currentTime) 
-    document.write(specialTime) 
-  document.write(specialTime.toLocaleDateString())
+document.write("Drats");
 }
 
          
