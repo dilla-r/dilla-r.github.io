@@ -24,11 +24,12 @@ var gamez = [
 if (specialTime.toDateString() == currentTime.toDateString()) {
 document.getElementById("answer").innerHTML = "Yas";
 }
-else if (currentTime == weirdTime) {
-document.getElementById("answer").innerHTML = "Almost lol";         
-}
 else {
-  document.getElementById("answer").innerHTML = "someday";
+document.write(specialTime.toDateString()) 
+  document.write(currentTime.toDateString())  
+    document.write(currentTime) 
+    document.write(specialTime) 
+  document.write(weirdTime)
 }
 
          
