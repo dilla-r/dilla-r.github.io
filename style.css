@@ -1,31 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Raleway:800|Merriweather+Sans|Share+Tech+Mono");
 
-:root {
-  --logo-font: "Share Tech Mono", monospace;
-  --header-font: "Raleway", sans-serif;
-  --core-font: "Merriweather Sans", sans-serif;
-
-  --primary: #ffffff;
-  --secondary: black;
-
-  --highlight: #fabf41;
-
-  --ui-shawdow: 0 2px 4px -1px rgba(0, 0, 0, 0.06),
-    0 4px 5px 0 rgba(0, 0, 0, 0.06), 0 1px 10px 0 rgba(0, 0, 0, 0.08);
-  fill: rgba(0, 0, 0, 0.54);
-  --ui-shawdow-border: 1px solid rgba(0, 0, 0, 0.14);
-}
-
-* {
-  box-sizing: border-box;
-}
-
-html,
-body,
-#root {
-  height: 100%;
-  width: 100%;
-}
 
 body {
   margin: 0;
@@ -46,7 +20,7 @@ h1 {
   padding: 0;
   margin: 0;
 
-  color: #fabf41;
+  color: #FDB827;
   font-size: 40px;
 }
 
