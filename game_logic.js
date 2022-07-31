@@ -1,4 +1,5 @@
 var currentTime = new Date();
+currentTime.setHours(0,0,0,0);
 var weirdTime = currentTime;
 var specialTime = new Date(2022,07,30);
 var myTime = new Date(1993,08,24);
@@ -21,7 +22,7 @@ var gamez = [
   "2022-08-28"
 ];
 
-if (specialTime == currentTime.setHours(0,0,0,0)) {
+if (specialTime == currentTime) {
 document.getElementById("answer").innerHTML = "Yas";
 }
 else if (currentTime == weirdTime) {
