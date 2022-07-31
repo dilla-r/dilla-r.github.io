@@ -18,7 +18,7 @@ const gamez = [
   "2022-08-22",
   "2022-08-23",
   "2022-08-24",
-  "2022-08-28
+  "2022-08-28"
 ]
 
 if (specialTime == currentTime.setHours(0,0,0,0)) {
