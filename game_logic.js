@@ -21,7 +21,7 @@ var gamez = [
   "2022-08-28"
 ];
 
-if (specialTime.toLocalDateString() == currentTime.toDateString()) {
+if (specialTime.toLocalDateString() == currentTime.toLocalDateString()) {
 document.getElementById("answer").innerHTML = "Yas";
 }
 else {
