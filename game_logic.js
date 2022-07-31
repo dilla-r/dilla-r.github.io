@@ -27,13 +27,12 @@ document.write(specialTime);
 
 if (specialTime == currentTime.toLocaleDateString()) {
 document.getElementById("answer").innerHTML = "Yas";
-    document.write(specialTime.toLocaleDateString());
-  document.write(specialTime.toDateString()) ;
-  document.write(currentTime.toDateString());
-    document.write(currentTime.toLocaleDateString());
+
 }
 else {
 document.write("Drats");
+  document.write(currentTime.toDateString());
+    document.write(currentTime.toLocaleDateString());
 }
 
          
