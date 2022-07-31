@@ -24,3 +24,8 @@ const gamez = [
 if (specialTime == currentTime) {
 document.getElementById("answer").innerHTML = "Yas";
 }
+else if (currentTime == weirdTime {
+document.getElementById("answer").innerHTML = "Almost";         
+}
+
+         
