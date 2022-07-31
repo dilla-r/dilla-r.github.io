@@ -23,13 +23,17 @@ var gamez = [
 
 if (specialTime.toLocalDateString() == currentTime.toLocalDateString()) {
 document.getElementById("answer").innerHTML = "Yas";
+    document.write(specialTime.toLocalDateString());
+  document.write(specialTime.toDateString()) ;
+  document.write(currentTime.toDateString());
+    document.write(currentTime.toLocalDateString());
 }
 else {
 document.write(specialTime.toDateString()) 
   document.write(currentTime.toDateString())  
     document.write(currentTime) 
     document.write(specialTime) 
-  document.write(specialTime.toLocalDateString)
+  document.write(specialTime.toLocalDateString())
 }
 
          
