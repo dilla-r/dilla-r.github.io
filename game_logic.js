@@ -27,5 +27,8 @@ document.getElementById("answer").innerHTML = "Yas";
 else if (currentTime == weirdTime) {
 document.getElementById("answer").innerHTML = "Almost 2";         
 }
+else {
+  document.getElementById("answer").innerHTML = "someday"
+}
 
          
