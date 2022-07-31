@@ -1,6 +1,6 @@
 var currentTime = new Date()
 var weirdTime = currentTime
-var specialTime = new Date(2022,07,30)
+var specialTime = new Date(2022-07-30)
 var myTime = new Date(1993,08,24)
 const gamez = [
 "2022-07-30",
@@ -21,11 +21,11 @@ const gamez = [
   "2022-08-28
 ]
 
-if (specialTime == currentTime) {
+if (specialTime == currentTime.setHours(0,0,0,0)) {
 document.getElementById("answer").innerHTML = "Yas";
 }
 else if (currentTime == weirdTime {
-document.getElementById("answer").innerHTML = "Almost";         
+document.getElementById("answer").innerHTML = "Almost 2";         
 }
 
          
