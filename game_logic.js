@@ -21,25 +21,25 @@ var gamez = [
 ];
 
 
-    document.write(specialTime.toLocalDateString());
-    document.write(currentTime.toLocalDateString());
+    document.write(specialTime.toLocaelDateString());
+    document.write(currentTime.toLocaleDateString());
   document.write(specialTime.toDateString()) ;
   document.write(currentTime.toDateString());
 
 
-if (specialTime.toLocalDateString() == currentTime.toLocalDateString()) {
+if (specialTime.toLocaleDateString() == currentTime.toLocaleDateString()) {
 document.getElementById("answer").innerHTML = "Yas";
-    document.write(specialTime.toLocalDateString());
+    document.write(specialTime.toLocaleDateString());
   document.write(specialTime.toDateString()) ;
   document.write(currentTime.toDateString());
-    document.write(currentTime.toLocalDateString());
+    document.write(currentTime.toLocaleDateString());
 }
 else {
 document.write(specialTime.toDateString()) 
   document.write(currentTime.toDateString())  
     document.write(currentTime) 
     document.write(specialTime) 
-  document.write(specialTime.toLocalDateString())
+  document.write(specialTime.toLocaleDateString())
 }
 
          
