@@ -21,7 +21,7 @@ var gamez = [
 ];
 
 
-    document.write(specialTime.toLocaelDateString());
+    document.write(specialTime.toLocaleDateString());
     document.write(currentTime.toLocaleDateString());
   document.write(specialTime.toDateString()) ;
   document.write(currentTime.toDateString());
