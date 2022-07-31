@@ -20,7 +20,7 @@ var gamez = [
   "2022-08-28"
 ];
 
-document.write(currentTime.toDateString());
+document.write(currentTime.toLocaleDateString());
 document.write(specialTime);
     
 
