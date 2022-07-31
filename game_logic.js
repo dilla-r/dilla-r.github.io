@@ -3,6 +3,6 @@ var weirdTime = currentTime
 var specialTime = new Date(2022,07,30)
 var myTime = new Date(1993,08,24)
 
-if (weirdTime == currentTime) {
-document.getElementById("answer").innerHTML = "Yerp";
+if (specialTime == currentTime) {
+document.getElementById("answer").innerHTML = "Yas";
 }
