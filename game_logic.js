@@ -25,8 +25,8 @@ document.write(currentTime.toLocaleDateString());
 document.write(specialTime);
 
 
-if (specialTime == currentTime.toLocaleDateString()) {
-document.getElementById("answer").innerHTML = "Yas";
+if (specialTime === currentTime.toLocaleDateString()) {
+document.getElementById("answer").innerHTML = Yas;
 
 }
 else {
