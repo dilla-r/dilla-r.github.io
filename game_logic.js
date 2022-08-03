@@ -42,7 +42,7 @@ d1.getDate() === d2.getDate() );
 function is_game_day(currentTime, dateList){
   // function that iterates through the gamez list and runs compare_dates(fix_time_zones_local(x)) for every x in gamez
   var is_game_day = false;
-  for(const date of gamez){
+  for(const date of dateList){
     if (compare_dates(currentTime, fix_time_zones_local(new Date(date))) ){
       var is_game_day = true;
       console.log('true');
@@ -53,10 +53,28 @@ function is_game_day(currentTime, dateList){
 };
 //compare_dates(currentTime, new Date(specialTime));
 
-if (is_game_day(currentTime, gamez)) {
-  document.getElementById("answer").innerHTML = "Yas";
+// Async Function that loads json from NFL tracker website 
+// Uses that to async update the page depending on the answer it gets 
+const DateUtc = fetch("https://fixturedownload.com/feed/json/nfl-2022/pittsburgh-steelers")
+  .then((response) => response.json())
+  .then((DateUtc) => {
+    return DateUtc;
+  });
 
-  }
-  else {
-  document.write("New");
-  };
+const gameDayAsync = async () => {
+  const a = await DateUtc;
+  var gamelist =  a.map(function(item) {
+    return item.DateUtc.substring(0,10)
+  });
+  if (is_game_day(currentTime, gamelist)) {
+    document.getElementById("answer").innerHTML = "Yas";
+  
+    }
+    else {
+      document.getElementById("answer").innerHTML = "No";
+    };
+
+  console.log(gamelist);
+};
+
+gameDayAsync();
